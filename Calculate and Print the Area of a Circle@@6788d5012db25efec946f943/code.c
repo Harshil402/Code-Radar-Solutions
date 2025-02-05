@@ -10,3 +10,7 @@ int main() {
     area = 3.14 * radius * radius;
     
     // Printing the area of the circle
+    printf("Area: %.2f\n", area);
+    
+    return 0;
+}
