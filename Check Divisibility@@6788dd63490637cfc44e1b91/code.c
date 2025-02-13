@@ -1,15 +1,17 @@
-// Your code here...
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int num;
-    num = 55;
     
-    if((num % 5 == 0) && (num % 11 == 0))
-        printf("Number is divisible by 5 and 11");
-    else
-        printf("Number is not divisible by 5 and 11");
-
+    // Input a single integer
+    scanf("%d", &num);
+    
+    // Check if the number is divisible by both 5 and 11
+    if (num % 5 == 0 && num % 11 == 0) {
+        printf("Divisible\n");
+    } else {
+        printf("Not Divisible\n");
+    }
+    
     return 0;
 }
